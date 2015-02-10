@@ -6,6 +6,12 @@ as university residences or so. The *model* represented by various class
 *diagrams*. Each diagram is providing information about the CyberResidence
 *system* and according to a different perspective.
 
+.. attention::
+
+    If after reading this document you have some **questions**, or if you find
+    some **errors** please do not hesitate to `post an issue`_. You should
+    also have a look there to see if some questions are already answered.
+
 Overview
 --------
 The diagram below presents CyberResidences from a global perspective.
@@ -132,21 +138,39 @@ textual specification contains in a same file:
     `USE OCL documentation`_ and in the particular in the reference manual.
 
 
+Snapshot Spreadsheet
+--------------------
+
+A snapshot (or state) is a set of objects, links and link objects corresponding
+to a given class model. In UML a snapshot is typically represented by a object
+diagram. Snapshots are usually difficult to create with UML tools but one way
+to enter data is to use spreadsheets.
+
+`CyberResidencesOCL-Snapshot-G999`_ is a google spreadsheet that should
+be completed. In order to do open this spreadsheet and  use the command
+``File > Make a Copy...``. You will need to complete the various sheets
+according to the CyberResidence class model.
+
+A macro is also defined to a generate some soil state from the content of the
+spreadsheet. This macro is already partly implemented in the spreadsheet above.
+In order to execute it use the command ``OCLScribe > Write SOIL Snapshot``.
+This menu is added by the macro. This macro is implemented in terms of
+java script. To edit the javascript file use the command
+``Tools > Script Editor...``
+
+
+Questions?
+----------
+
 .. attention::
 
-    TODO
-
-Tests
------
-
-.. attention::
-
-    TODO
-    @assert directive
-
-
+    If you have some **questions**, or if you find some **errors**
+    please do not hesitate to `post an issue`_. You should
+    also have a look there to see if some questions are already answered.
 
 .. ............................................................................
 
 .. _`USE OCL`: http://scribetools.readthedocs.org/en/latest/useocl
 .. _`USE OCL documentation`: http://scribetools.readthedocs.org/en/latest/useocl/#documentation
+.. _`post an issue`: https://github.com/megaplanet/CyberResidencesOCL/issues
+.. _`CyberResidencesOCL-Snapshot-G999`: https://docs.google.com/spreadsheets/d/15uaRgaFOeC5qz7J3MWBH7YWSh5f0g0T0992PGigpReU/
