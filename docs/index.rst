@@ -138,25 +138,6 @@ textual specification contains in a same file:
     `USE OCL documentation`_ and in the particular in the reference manual.
 
 
-Snapshot Spreadsheet
---------------------
-
-A snapshot (or state) is a set of objects, links and link objects corresponding
-to a given class model. In UML a snapshot is typically represented by a object
-diagram. Snapshots are usually difficult to create with UML tools but one way
-to enter data is to use spreadsheets.
-
-`CyberResidencesOCL-Snapshot-G999`_ is a google spreadsheet that should
-be completed. In order to do open this spreadsheet and  use the command
-``File > Make a Copy...``. You will need to complete the various sheets
-according to the CyberResidence class model.
-
-A macro is also defined to a generate some soil state from the content of the
-spreadsheet. This macro is already partly implemented in the spreadsheet above.
-In order to execute it use the command ``OCLScribe > Write SOIL Snapshot``.
-This menu is added by the macro. This macro is implemented in terms of
-java script. To edit the javascript file use the command
-``Tools > Script Editor...``
 
 
 Questions?
