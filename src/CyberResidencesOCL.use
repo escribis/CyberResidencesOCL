@@ -30,13 +30,13 @@ attributes
 operations
     -- Set of bedrooms of the residence.
     bedrooms() : Set(Bedroom) =
-        rooms->select(oclIsKindOf(Bedroom))->oclAsType(Set(Bedroom))
+        rooms->selectByKind(Bedroom)
     -- Set of useful bedrooms.
     usefulBedrooms() : Set(Bedroom)
         bedrooms()->select(not isOutOfOrder)
     -- Set of residence bathrooms
     bathrooms() : Set(Bathroom)
-        rooms->select(oclIsKindOf(Bathroom))->oclAsType(Set(Bathroom))
+        rooms->selectByKind(Bathroom)
 end
 
 
