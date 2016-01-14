@@ -16,7 +16,7 @@ Overview
 --------
 The diagram below presents CyberResidences from a global perspective.
 This diagram does not show however the constraints. These constraints, or
-at least their location, will be presented in the context of each package.
+at least their location, are presented below in the context of each package.
 
 .. figure:: media/CyberResidences_FullView.png
     :align: center
@@ -55,7 +55,7 @@ the constraints associated with each class.
 "Rents" package
 ---------------
 The "Rents" package is basically answering "who is in the residence". A tenant
-pay for one or more rooms, but he or she may be responsible of a much larger
+pays for one or more rooms, but he or she may be responsible of a much larger
 group of residents. These residents all occupy a room rented from that tenant.
 This diagram shows not only these concepts but also lists the constraints
 associated with each class. The "Rents" package heavily depends on the
