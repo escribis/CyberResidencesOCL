@@ -41,7 +41,9 @@ extensions = [
 templates_path = ['_templates']
 
 # The suffix of source filenames.
-source_suffix = ['.rst']
+# remove to get default value from sphinx
+# otherwise this make readthedocs fail
+# source_suffix = ['.rst']
 
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
