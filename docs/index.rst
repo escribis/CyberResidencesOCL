@@ -114,8 +114,8 @@ textual specification contains in a same file:
 
 * the structural specification.
     This is the equivalent of class diagrams but expressed using a simple
-    textual notation. Instead of written ``A`` in a box as in a UML class
-    diagram, one write ``class A``. You can see below the class ``Residence``
+    textual notation. Instead of writing ``A`` in a box as in a UML class
+    diagram, in USE OCL we write ``class A``. You can see below the class ``Residence``
     translated in USE OCL::
 
                 class Residence
@@ -129,8 +129,8 @@ textual specification contains in a same file:
                 end
 
 * the constraint specifications.
-    All the constraints can then be written in a dialect of OCL. Only a
-    few keywords change with respect to OCL.
+    All the constraints can then be written in a dialect of standard OCL.
+    Only a few keywords change with respect to OCL.
 
 .. note::
 
